@@ -1,9 +1,11 @@
+package chapter1;
+
 /**
  * Created by nsmirosh on 4/17/2015.
  */
 public abstract class Duck {
     FlyBehavior flyBehavior;
-   // QuackBehavior quackBehavior;
+    QuackBehavior quackBehavior;
     public Duck() {
     }
     public abstract void display();
@@ -11,9 +13,9 @@ public abstract class Duck {
         flyBehavior.fly();
     }
     public void performQuack() {
-      //  quackBehavior.quack();
+        quackBehavior.quack();
     }
     public void swim() {
-       // System.out.println(“All ducks float, even decoys!”);
+        System.out.println("All ducks float, even decoys!");
     }
 }
