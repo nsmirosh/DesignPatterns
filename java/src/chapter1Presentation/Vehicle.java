@@ -30,9 +30,10 @@ public abstract class Vehicle {
         nitroBehavior = nb;
     }
 
+    /*
     Vehicle modelCar = new ModelCar();
     modelCar.performUseNitro();
     modelCar.setNitroBehavior(new RocketPoweredNitro());
-    modelCar.performUseNitro();
+    modelCar.performUseNitro();*/
 
 }
