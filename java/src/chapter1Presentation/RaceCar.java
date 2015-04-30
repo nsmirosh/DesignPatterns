@@ -9,4 +9,9 @@ public class RaceCar extends Vehicle {
         passengerBehavior = new NotAbleToPickUp();
         nitroBehavior = new RaceCarNitro();
     }
+
+
+    public void pickUpPassengers() {
+        //pick up passenger in a special way
+    }
 }

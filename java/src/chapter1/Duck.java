@@ -6,6 +6,7 @@ package chapter1;
 public abstract class Duck {
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
+    RunningBehavior runningBehavior;
     public Duck() {
     }
     public abstract void display();
