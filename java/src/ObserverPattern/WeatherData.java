@@ -1,9 +1,10 @@
 package ObserverPattern;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class WeatherData implements Subject {
-    private ArrayList observers;
+    private List observers;
     private float temperature;
     private float humidity;
     private float pressure;
