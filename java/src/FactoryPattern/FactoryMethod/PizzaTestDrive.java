@@ -1,4 +1,9 @@
-package FactoryPattern;
+package FactoryPattern.FactoryMethod;
+
+import FactoryPattern.FactoryMethod.ChicagoPizzaStore;
+import FactoryPattern.FactoryMethod.NYPizzaStore;
+import FactoryPattern.FactoryMethod.Pizza;
+import FactoryPattern.FactoryMethod.PizzaStore;
 
 public class PizzaTestDrive {
     public static void main(String[] args) {

@@ -1,7 +1,9 @@
 package FactoryPattern;
 
+import FactoryPattern.FactoryMethod.Pizza;
+
 public class SimplePizzaFactory {
-    public Pizza createPizza(String type) {
+    public static Pizza createPizza(String type) {
         Pizza pizza = null;
         if (type.equals("cheese")) {
           //  pizza = new CheesePizza();
@@ -15,3 +17,6 @@ public class SimplePizzaFactory {
         return pizza;
     }
 }
+
+
+
